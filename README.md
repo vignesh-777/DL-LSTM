@@ -28,8 +28,8 @@ Train the model over multiple epochs, tracking loss.
 Evaluate model accuracy, plot loss curves, and visualize predictions on a sample.
 
 ## PROGRAM
-### Name: Lokesh M
-### Register Number: 212223230114
+### Name: vignesh R
+### Register Number: 212223240177
 
 ```python
 import pandas as pd
@@ -193,11 +193,13 @@ for w_id, true_tag, pred_tag in zip(X_test[i], y_test[i], preds):
 ```
 ### OUTPUT
 ## Loss Vs Epoch Plot
-![alt text](image.png)
+
+<img width="716" height="540" alt="image" src="https://github.com/user-attachments/assets/c05ea80b-0923-4887-a1e5-e6e815a9eebb" />
+
 
 ### Sample Text Prediction
 
-![alt text](image-1.png)
+<img width="341" height="412" alt="image" src="https://github.com/user-attachments/assets/8bd78ed4-8363-46ae-94bb-bd28e3e5ca8a" />
 
 ## RESULT
 Thus, an LSTM-based model for recognizing the named entities in the text has been developed successfully.
